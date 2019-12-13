@@ -27,3 +27,13 @@ variable "k8s-version" {
   type        = string
   description = "Required K8s version"
 }
+
+variable "vpc_pri_suffix" {
+  default = "10.241.1"
+  type    = string
+}
+
+variable "vpc_pub_suffix" {
+  default = "10.241.11"
+  type    = string
+}
